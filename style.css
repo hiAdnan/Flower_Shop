@@ -1,0 +1,213 @@
+*{
+    font-family: "Lato", serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:rgba(229, 84, 115, 0.12);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+header h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+}
+a{
+    border-radius: 8px;
+    background: #E55473;
+    text-decoration: none;
+    color: white;
+    padding: 20px 43px;
+    display: inline-block;
+    font-family: "Lato", serif;
+    font-weight: 600;
+}
+header p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;    
+    font-weight: 400;
+    line-height: 30px;
+}
+.h_style{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 130px;
+}
+.p_style{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.pg_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+.stl{
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.f2 img{
+   align-self: center;
+   display: inline-block;
+   padding-top: 55px;
+}
+.f1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.f2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.f3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.pg_1 img{
+    display: inline-block;
+}
+.caption{
+    display: flex;
+    justify-content: center;
+    gap: 296px;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.pg_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 88px 200px;
+    gap: 80px;
+    height: 320px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Bold{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.pg_3{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.flower{
+    display: flex;
+    align-items: center;
+}
+span{
+    color: #E55473;
+}
+.text a{
+    font-size: 20px;
+    font-weight: 700;
+}
+.pg_4_head{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+.pg_4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.pg_5{
+    height: 449px;
+    margin: 88px 200px;
+    border-radius: 8px;
+    background: url(resources/Rectangle\ 9.png) no-repeat;
+}
+.pg_5 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 130px;
+    margin: 0;
+}
+input[type=email]{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    margin-right: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+
+}
+.relative{
+    position: relative;
+    left: 283px;
+    top: 19px;
+}
+footer{
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.footer_last_p{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
